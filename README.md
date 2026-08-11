@@ -37,6 +37,13 @@ a 3-layer memory (RAM, episodic SQLite with embeddings and hybrid FTS5 search, v
 YAML profile), and a token→sentence→TTS streaming pipeline. Runs local models via Ollama,
 with real VRAM measurement per model.
 
+**Personal AI infrastructure** · Cloudflare Workers · MCP
+A remote MCP server in production on Cloudflare Workers, exposing my private repos as
+tools for claude.ai and cloud routines — timing-safe dual auth, gated writes, and a
+security audit applied before deploy. Plus a tri-CLI orchestration layer: Claude, Codex
+and Grok deliberating on real architecture decisions through a shared board, with
+schema-validated votes and vetoes that changed the outcome.
+
 **Legacy platform still in production** · Google Apps Script
 ~40,000 lines serving 550+ users across ~1,200 schools. 21 tables, 59+ API endpoints
 across 5 roles, a data access layer with pessimistic locking, and a 5-step bidirectional
