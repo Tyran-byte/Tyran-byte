@@ -16,7 +16,7 @@ Here is what is in them.
 
 **Education management platform** · React 19 · TypeScript · Supabase · Deno
 In production since August 2026, serving ~600 users across 5 roles. 141 PostgreSQL
-migrations, 11 edge functions, 203 test files. A 21-step ETL out of Google Sheets sitting
+migrations, 11 edge functions, 214 test files. A 23-step ETL out of Google Sheets sitting
 behind ~280 integrity assertions generated from the data catalogue rather than
 hand-written — 88 parity failures closed by fixing the pipeline, never by relaxing
 an assertion. Row-level security per role, column-level security over personal data,
